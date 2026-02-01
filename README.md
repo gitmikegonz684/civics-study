@@ -13,6 +13,10 @@ A mobile-friendly web application for studying flashcards. Select a deck, work t
 - Mobile-responsive design
 - Progress tracking with localStorage
 
+### Backlog
+
+- **Quiz Mode:** 20 random questions, 12 correct required to pass.
+
 ## Getting Started
 
 ### Prerequisites
