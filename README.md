@@ -65,6 +65,7 @@ npm run build
 - TypeScript
 - Vite
 - CSS for styling
+- Question/Answer data sourced from USCIS: [Official list of civics questions and answers for the 2025 naturalization test. ](https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test)
 
 ## Deployment
 
