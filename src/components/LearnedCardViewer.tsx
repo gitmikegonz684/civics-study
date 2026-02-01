@@ -60,7 +60,7 @@ const LearnedCardViewer: React.FC<LearnedCardViewerProps> = ({ deck, onBack }) =
     return (
       <div className="flashcard-viewer">
         <h2>No learned cards in this deck.</h2>
-        <button onClick={onBack}>Back to Learned Decks</button>
+        <button onClick={onBack} className="back-btn">Back to Learned Decks</button>
       </div>
     );
   }

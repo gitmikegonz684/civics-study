@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: center;
 }
 
 .deck-button {
@@ -32,6 +33,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  width: 100%;
 }
 
 .deck-button:hover {
@@ -47,6 +49,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  width: 100%;
 }
 
 .deck-item {
@@ -54,6 +57,7 @@
   gap: 10px;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .clear-btn {
@@ -65,6 +69,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  width: 100%;
 }
 
 .clear-btn:hover {
@@ -124,8 +129,9 @@
 .buttons {
   display: flex;
   gap: 10px;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 button {
@@ -135,6 +141,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  width: 100%;
 }
 
 .show-answer-btn {
@@ -206,6 +213,5 @@ button {
 
   button {
     width: 100%;
-    max-width: 200px;
   }
 }
